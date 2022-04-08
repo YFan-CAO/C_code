@@ -39,5 +39,8 @@
     <ClCompile Include="qiu zui da zhi.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="fan xiang shu chu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
