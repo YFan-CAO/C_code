@@ -139,6 +139,10 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="4.9_1.c" />
+    <ClCompile Include="4.9_2.c" />
+    <ClCompile Include="4.9_3.c" />
+    <ClCompile Include="4.9_4.c" />
     <ClCompile Include="fan xiang shu chu.c" />
     <ClCompile Include="fen shu qiu he.c" />
     <ClCompile Include="liang shu zui da gong yue shu.c" />

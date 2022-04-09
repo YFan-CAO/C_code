@@ -42,5 +42,17 @@
     <ClCompile Include="fan xiang shu chu.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="4.9_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.9_2.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.9_3.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="4.9_4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
