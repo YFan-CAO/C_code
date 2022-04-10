@@ -1,5 +1,5 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//#include <stdio.h>
+#define _CRT_SECURE_NO_WARNINGS 1
+#include <stdio.h>
 //int main()
 //{
 //	int a, b, c = 0;
@@ -25,6 +25,48 @@
 //
 //		
 //	}
+//
+//	return 0;
+//}±¿·½·¨
+//
+//int main()
+//{
+//	int a,b,c,d= 0;
+//	scanf("%d %d %d", &a,&b,&c);
+//	int i = 0;
+//	
+//		if (a > b)
+//		{
+//			
+//		}
+//		else {
+//			d=a;
+//			a = b;
+//			b = d;
+//		}
+//		if (a > c)
+//		{
+//			
+//		}
+//		else {
+//			d=a;
+//			a = c;
+//			c = d;
+//		}
+//		if (b > c)
+//		{
+//		
+//		}
+//		else {
+//			d=b;
+//			b = c;
+//			c = d;
+//		}
+//
+//		printf("%d %d %d", a,b,c);
+//
+//	
+//
 //
 //	return 0;
 //}

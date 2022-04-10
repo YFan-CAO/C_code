@@ -16,10 +16,23 @@
 //	{
 //		if (arr[n] > arr[n + 1])
 //		{
-//			max = arr[n];
+//			if (max < arr[n])
+//			{
+//				max = arr[n];
+//			}
+//			else {
+//				
+//			}
 //		}
 //		else {
-//			max = arr[n + 1];
+//			
+//			if (max < arr[n + 1])
+//			{
+//				max = arr[n + 1];
+//			}
+//			else {
+//
+//			}
 //		}
 //	}
 //	printf("%d", max);

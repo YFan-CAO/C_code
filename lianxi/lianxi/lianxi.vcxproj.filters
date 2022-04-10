@@ -30,9 +30,6 @@
     <ClCompile Include="su shu.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="shu 9 ge shu.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="fen shu qiu he.c">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -52,6 +49,12 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="4.9_4.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="99 biao.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zhuan huan zi fu.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

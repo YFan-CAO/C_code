@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{d2ebd8d9-f6f4-420f-8be4-80cf21b10082}</ProjectGuid>
-    <RootNamespace>lianxi</RootNamespace>
+    <ProjectGuid>{42a36dc7-0a66-4519-9439-d7415d2c5666}</ProjectGuid>
+    <RootNamespace>Datastructure</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -139,20 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="4.9_1.c" />
-    <ClCompile Include="4.9_2.c" />
-    <ClCompile Include="4.9_3.c" />
-    <ClCompile Include="4.9_4.c" />
-    <ClCompile Include="99 biao.c" />
-    <ClCompile Include="fan xiang shu chu.c" />
-    <ClCompile Include="fen shu qiu he.c" />
-    <ClCompile Include="liang shu zui da gong yue shu.c" />
-    <ClCompile Include="qiu zui da zhi.c" />
-    <ClCompile Include="run nian.c" />
-    <ClCompile Include="san de bei shu.c" />
-    <ClCompile Include="san shu pai xu.c" />
-    <ClCompile Include="su shu.c" />
-    <ClCompile Include="zhuan huan zi fu.c" />
+    <ClCompile Include="migong.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
