@@ -1,4 +1,4 @@
-//
+//#define _CRT_SECURE_NO_WARNINGS 1
 //#include<stdio.h>
 // #include<math.h>
 //int main()
@@ -18,4 +18,5 @@
 //		if (p == 1)
 //			printf("%d ", i);
 //	}
+//	return 0;
 //}

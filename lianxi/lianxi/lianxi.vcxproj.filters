@@ -57,5 +57,8 @@
     <ClCompile Include="zhuan huan zi fu.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FC su shu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

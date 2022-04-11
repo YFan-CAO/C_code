@@ -145,6 +145,7 @@
     <ClCompile Include="4.9_4.c" />
     <ClCompile Include="99 biao.c" />
     <ClCompile Include="fan xiang shu chu.c" />
+    <ClCompile Include="FC su shu.c" />
     <ClCompile Include="fen shu qiu he.c" />
     <ClCompile Include="liang shu zui da gong yue shu.c" />
     <ClCompile Include="qiu zui da zhi.c" />
