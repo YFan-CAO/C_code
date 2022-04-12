@@ -60,5 +60,17 @@
     <ClCompile Include="FC su shu.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="FC run nian.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FC jiaohaunshu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="FC cheng fa biao.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DGFC da yin mei yi wei.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
