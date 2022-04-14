@@ -1,20 +1,20 @@
-//#define _CRT_SECURE_NO_WARNINGS 1
-//#include<iostream>
-//#include<cstdio>
-//using namespace std;
-//
-//typedef struct {
-//	int r, c;
-//}PosType;
-//
-//typedef struct {
-//	int ord;
-//	PosType seat;
-//	int di;
-//}SElemType;
-//
-//typedef struct {
-//	char arr[10][11];
+////#define _CRT_SECURE_NO_WARNINGS 1
+////#include<iostream>
+////#include<cstdio>
+////using namespace std;
+////
+////typedef struct {
+////	int r, c;
+////}PosType;
+////
+////typedef struct {
+////	int ord;
+////	PosType seat;
+////	int di;
+////}SElemType;
+////
+////typedef struct {
+////	char arr[10][11];
 //}MazeType;
 //
 //struct stack {
@@ -76,7 +76,7 @@
 //			if (curpos.r == end.r && curpos.c == end.c) {
 //				return 1;
 //			}
-//			curpos = NextPose(&curpos, e.di);
+//			curpos = NextPose(&curpos, e.di);//将迷宫的i出口传送到第一层
 //			curstep++;
 //		}
 //		else {

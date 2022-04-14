@@ -144,7 +144,10 @@
     <ClCompile Include="4.9_3.c" />
     <ClCompile Include="4.9_4.c" />
     <ClCompile Include="99 biao.c" />
+    <ClCompile Include="dgfc  jie  cheng.c" />
     <ClCompile Include="DGFC da yin mei yi wei.c" />
+    <ClCompile Include="DGFC ni xu zi fu.c" />
+    <ClCompile Include="DGFC STLREN.c" />
     <ClCompile Include="fan xiang shu chu.c" />
     <ClCompile Include="FC cheng fa biao.c" />
     <ClCompile Include="FC jiaohaunshu.c" />

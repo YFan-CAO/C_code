@@ -72,5 +72,14 @@
     <ClCompile Include="DGFC da yin mei yi wei.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="dgfc  jie  cheng.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DGFC STLREN.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="DGFC ni xu zi fu.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
