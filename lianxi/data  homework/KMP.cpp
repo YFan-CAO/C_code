@@ -1,26 +1,41 @@
-#include<bits/stdc++.h>
-
-const int N = 1e3 + 10;
-int next[N], f[N];
-int main() {
-	std::string a, b;
-	while (std::cin >> b >> a) {
-		int n = a.length(), m = b.length();
-		a = " " + a; b = " " + b;
-		for (int i = 2, j = 0; i <= n; i++) {
-			while (j > 0 && a[i] != a[i + 1]) j = next[j];
-			if (a[i] == a[j + 1]) j++;
-			next[i] = j;
-		}
-		int ans = 0;
-		for (int i = 1, j = 0; i <= m; i++) {
-			while (j > 0 && (j == n || b[i] != a[j + 1])) j = next[j];
-			if (b[i] == a[j + 1]) j++;
-			f[i] = j;
-			if (f[i] == n) ans = i;
-		}
-		if (ans != 0) std::cout << ans - n + 1 << std::endl;
-		else std::cout << ans << std::endl;
-	}
+#include <bits/stdc++.h>
+using namespace std;
+void getNext(int* nt, const string& s)
+{
+    int j = 0, i;
+    nt[0] = 0;
+    for (int i = 1; i < s.size(); i++)
+    {
+        while (j > 0 && s[i] != s[j])
+        {
+            j = s[j - 1];
+        }
+        if (s[i] == s[j])
+            j++;
+        nt[i] = j;
+    }
 }
-
+int strStr(string s, string sub)
+{
+    int nt[sub.size()];
+    int j = 0;
+    getNext(nt, sub);
+    for (int i = 0; i < s.size(); i++)
+    {
+        while (j > 0 && sub[j] != s[i])
+        {
+            j = nt[j - 1];
+        }
+        if (sub[j] == s[i])
+            j++;
+        if (j == sub.size())
+            return i - j + 2;
+    }
+    return 0;
+}
+int main()
+{
+    string a, b;
+    cin >> a >> b;
+    cout << strStr(a, b);
+}
