@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Huffman.cpp" />
     <ClCompile Include="KMP.cpp" />
     <ClCompile Include="三元组的矩阵加法 .cpp" />
     <ClCompile Include="九宫格数独游戏.cpp" />
