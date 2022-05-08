@@ -51,5 +51,17 @@
     <ClCompile Include="Huffman.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="带权路径长度 .cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图的遍历及连通性.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="犯罪团伙.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="图形窗口问题.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

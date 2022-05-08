@@ -147,9 +147,13 @@
     <ClCompile Include="二叉树的先序遍历 非递归算法.cpp" />
     <ClCompile Include="二叉树的创建及求解二叉树的宽度.cpp" />
     <ClCompile Include="二叉树的递归遍历.cpp" />
+    <ClCompile Include="图形窗口问题.cpp" />
+    <ClCompile Include="图的遍历及连通性.cpp" />
     <ClCompile Include="层次遍历二叉树.cpp" />
+    <ClCompile Include="带权路径长度 .cpp" />
     <ClCompile Include="数组主元素.cpp" />
     <ClCompile Include="数组存储的完全二叉树的先序遍历.cpp" />
+    <ClCompile Include="犯罪团伙.cpp" />
     <ClCompile Include="稀疏矩阵快速转置.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
