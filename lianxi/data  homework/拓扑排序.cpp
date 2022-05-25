@@ -10,16 +10,16 @@ typedef struct vnode
     int data;
     edg* first;
 } adjlist[100];
-struct graph
+struct grapg
 {
     adjlist ver;
     int vexnum, arcnum;
 };
-int innode[500];
+int enode[500];
 int store[500];
-void create(graph** g)
+void create(grapg** g)
 {
-    *g = new graph;
+    *g = new grapg;
     cin >> (*g)->vexnum;
     for (int i = 0; i < (*g)->vexnum; i++)
     {
@@ -41,26 +41,26 @@ void create(graph** g)
         }
     }
 }
-void getid(graph* g)
+void getid(grapg* g)
 {
-    fill(innode, innode + g->vexnum, 0);
+    fill(enode, enode + g->vexnum, 0);
     for (int i = 0; i < g->vexnum; i++)
     {
         edg* p = g->ver[i].first;
         while (p)
         {
-            innode[p->adj]++;
+            enode[p->adj]++;
             p = p->next;
         }
     }
 }
-void tuppu(graph* g)
+void tuppu(grapg* g)
 {
     getid(g);
     stack<int> s;
     for (int i = 0; i < g->vexnum; i++)
     {
-        if (!innode[i])
+        if (!enode[i])
             s.push(i);
     }
     int count = 0;
@@ -72,7 +72,7 @@ void tuppu(graph* g)
         for (edg* p = g->ver[temp].first; p; p = p->next)
         {
             int k = p->adj;
-            if (!(--innode[k]))
+            if (!(--enode[k]))
                 s.push(k);
         }
     }
@@ -86,7 +86,7 @@ void tuppu(graph* g)
 }
 int main()
 {
-    graph* g;
+    grapg* g;
     create(&g);
     tuppu(g);
 }

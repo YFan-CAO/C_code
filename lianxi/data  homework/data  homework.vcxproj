@@ -139,7 +139,9 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include=".弗洛伊德算法求最短路径.cpp" />
     <ClCompile Include="Huffman.cpp" />
+    <ClCompile Include="jungle roads.cpp" />
     <ClCompile Include="KMP.cpp" />
     <ClCompile Include="三元组的矩阵加法 .cpp" />
     <ClCompile Include="九宫格数独游戏.cpp" />
@@ -147,6 +149,7 @@
     <ClCompile Include="二叉树的先序遍历 非递归算法.cpp" />
     <ClCompile Include="二叉树的创建及求解二叉树的宽度.cpp" />
     <ClCompile Include="二叉树的递归遍历.cpp" />
+    <ClCompile Include="关键路径求解.cpp" />
     <ClCompile Include="图形窗口问题.cpp" />
     <ClCompile Include="图的遍历及连通性.cpp" />
     <ClCompile Include="层次遍历二叉树.cpp" />
@@ -156,6 +159,7 @@
     <ClCompile Include="数组存储的完全二叉树的先序遍历.cpp" />
     <ClCompile Include="犯罪团伙.cpp" />
     <ClCompile Include="稀疏矩阵快速转置.cpp" />
+    <ClCompile Include="迪杰斯特拉算法求最短路径.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

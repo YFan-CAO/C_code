@@ -66,5 +66,17 @@
     <ClCompile Include="拓扑排序.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="jungle roads.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="关键路径求解.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="迪杰斯特拉算法求最短路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include=".弗洛伊德算法求最短路径.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
