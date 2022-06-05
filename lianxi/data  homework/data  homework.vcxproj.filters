@@ -78,5 +78,17 @@
     <ClCompile Include=".弗洛伊德算法求最短路径.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="二叉排序树源.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="折半查找.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="二叉查找树的后序遍历.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="雪花.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
