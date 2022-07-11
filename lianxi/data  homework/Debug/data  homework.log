@@ -1,0 +1,97 @@
+﻿  .弗洛伊德算法求最短路径.cpp
+F:\github\C_code\lianxi\data  homework\.弗洛伊德算法求最短路径.cpp(1,10): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  dui.cpp
+  Huffman.cpp
+  jungle roads.cpp
+F:\github\C_code\lianxi\data  homework\jungle roads.cpp(2,10): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  KMP.cpp
+F:\github\C_code\lianxi\data  homework\KMP.cpp(1,10): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  quick.cpp
+  xier.cpp
+  三元组的矩阵加法 .cpp
+F:\github\C_code\lianxi\data  homework\三元组的矩阵加法 .cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  九宫格数独游戏.cpp
+F:\github\C_code\lianxi\data  homework\九宫格数独游戏.cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  二叉排序树源.cpp
+F:\github\C_code\lianxi\data  homework\二叉排序树源.cpp(106,5): error C2365: “floor”: 重定义；以前的定义是“函数”
+F:\github\C_code\lianxi\data  homework\二叉排序树源.cpp(111,14): error C2679: 二元“<<”: 没有找到接受“overloaded-function”类型的右操作数的运算符(或没有可接受的转换)
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(465,39): message : 可能是“std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_streambuf<char,std::char_traits<char>> *)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(440,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(const void *)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(422,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long double)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(404,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(double)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(386,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(float)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(368,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned __int64)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(350,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(__int64)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(332,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned long)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(314,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(long)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(295,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned int)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(269,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(int)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(250,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(unsigned short)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(216,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(short)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(198,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(bool)”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(193,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::ios_base &(__cdecl *)(std::ios_base &))”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(188,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ios<char,std::char_traits<char>> &(__cdecl *)(std::basic_ios<char,std::char_traits<char>> &))”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(183,39): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::basic_ostream<char,std::char_traits<char>>::operator <<(std::basic_ostream<char,std::char_traits<char>> &(__cdecl *)(std::basic_ostream<char,std::char_traits<char>> &))”
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(859,32): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,_Elem)”
+          with
+          [
+              _Elem=char
+          ]
+D:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\include\ostream(816,32): message : 或    “std::basic_ostream<char,std::char_traits<char>> &std::operator <<<char,std::char_traits<char>>(std::basic_ostream<char,std::char_traits<char>> &,const _Elem *)”
+          with
+          [
+              _Elem=char
+          ]
+F:\github\C_code\lianxi\data  homework\二叉排序树源.cpp(112,21): message : 尝试匹配参数列表“(std::basic_ostream<char,std::char_traits<char>>, overloaded-function)”时
+F:\github\C_code\lianxi\data  homework\二叉排序树源.cpp(117,14): error C2563: 在形参表中不匹配
+F:\github\C_code\lianxi\data  homework\二叉排序树源.cpp(122,14): error C2563: 在形参表中不匹配
+  二叉查找树的后序遍历.cpp
+F:\github\C_code\lianxi\data  homework\二叉查找树的后序遍历.cpp(2,10): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  二叉树根据中序和后序求前序遍历.cpp
+F:\github\C_code\lianxi\data  homework\二叉树根据中序和后序求前序遍历.cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  二叉树的先序遍历 非递归算法.cpp
+  二叉树的创建及求解二叉树的宽度.cpp
+F:\github\C_code\lianxi\data  homework\二叉树的创建及求解二叉树的宽度.cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  二叉树的递归遍历.cpp
+F:\github\C_code\lianxi\data  homework\二叉树的递归遍历.cpp(13,8): error C2872: “size”: 不明确的符号
+F:\github\C_code\lianxi\data  homework\二叉树的递归遍历.cpp(9,5): message : 可能是“int size”
+F:\github\C_code\lianxi\data  homework\二叉树的递归遍历.cpp(13,8): message : 或  “size”
+F:\github\C_code\lianxi\data  homework\二叉树的递归遍历.cpp(56,10): error C2872: “size”: 不明确的符号
+F:\github\C_code\lianxi\data  homework\二叉树的递归遍历.cpp(9,5): message : 可能是“int size”
+F:\github\C_code\lianxi\data  homework\二叉树的递归遍历.cpp(56,10): message : 或  “size”
+  关键路径求解.cpp
+F:\github\C_code\lianxi\data  homework\关键路径求解.cpp(1,10): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  图形窗口问题.cpp
+F:\github\C_code\lianxi\data  homework\图形窗口问题.cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  图的遍历及连通性.cpp
+F:\github\C_code\lianxi\data  homework\图的遍历及连通性.cpp(3,19): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  层次遍历二叉树.cpp
+F:\github\C_code\lianxi\data  homework\层次遍历二叉树.cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  带权路径长度 .cpp
+F:\github\C_code\lianxi\data  homework\带权路径长度 .cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  正在生成代码...
+  正在编译...
+  拓扑排序.cpp
+F:\github\C_code\lianxi\data  homework\拓扑排序.cpp(1,10): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  数组主元素.cpp
+F:\github\C_code\lianxi\data  homework\数组主元素.cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  数组存储的完全二叉树的先序遍历.cpp
+F:\github\C_code\lianxi\data  homework\数组存储的完全二叉树的先序遍历.cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  犯罪团伙.cpp
+F:\github\C_code\lianxi\data  homework\犯罪团伙.cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  稀疏矩阵快速转置.cpp
+F:\github\C_code\lianxi\data  homework\稀疏矩阵快速转置.cpp(1,9): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  迪杰斯特拉算法求最短路径.cpp
+F:\github\C_code\lianxi\data  homework\迪杰斯特拉算法求最短路径.cpp(1,10): fatal error C1083: 无法打开包括文件: “bits/stdc++.h”: No such file or directory
+  雪花.cpp
+F:\github\C_code\lianxi\data  homework\雪花.cpp(72,57): error C2297: “+=”: 非法，右操作数包含“_InIt”类型
+          with
+          [
+              _InIt=char *
+          ]
+F:\github\C_code\lianxi\data  homework\雪花.cpp(72,57): error C2040: “+=”:“int”与“_InIt”的间接寻址级别不同
+          with
+          [
+              _InIt=char *
+          ]
+  正在生成代码...

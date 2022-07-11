@@ -18,5 +18,19 @@
     <ClCompile Include="migong.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="6.13_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="6.14_1.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="nizhi.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="seqlist.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

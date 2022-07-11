@@ -1,3 +1,4 @@
-﻿  DGFC ni xu zi fu.c
-F:\github\C_code\lianxi\lianxi\DGFC ni xu zi fu.c(13,17): warning C4047: “!=”:“int”与“char [2]”的间接级别不同
-F:\github\C_code\lianxi\lianxi\DGFC ni xu zi fu.c(22,3): error C2100: 非法的间接寻址
+﻿  99 biao.c
+  qiu zui da zhi.c
+  正在生成代码...
+  lianxi.vcxproj -> F:\github\C_code\lianxi\Debug\lianxi.exe

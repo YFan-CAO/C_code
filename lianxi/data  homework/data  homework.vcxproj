@@ -140,9 +140,12 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include=".弗洛伊德算法求最短路径.cpp" />
+    <ClCompile Include="dui.cpp" />
     <ClCompile Include="Huffman.cpp" />
     <ClCompile Include="jungle roads.cpp" />
     <ClCompile Include="KMP.cpp" />
+    <ClCompile Include="quick.cpp" />
+    <ClCompile Include="xier.cpp" />
     <ClCompile Include="三元组的矩阵加法 .cpp" />
     <ClCompile Include="九宫格数独游戏.cpp" />
     <ClCompile Include="二叉排序树源.cpp" />
@@ -154,6 +157,7 @@
     <ClCompile Include="关键路径求解.cpp" />
     <ClCompile Include="图形窗口问题.cpp" />
     <ClCompile Include="图的遍历及连通性.cpp" />
+    <ClCompile Include="就地逆置 s0（1）.c" />
     <ClCompile Include="层次遍历二叉树.cpp" />
     <ClCompile Include="带权路径长度 .cpp" />
     <ClCompile Include="折半查找.c" />

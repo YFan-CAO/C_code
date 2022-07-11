@@ -90,5 +90,17 @@
     <ClCompile Include="雪花.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="xier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="dui.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="quick.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="就地逆置 s0（1）.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
