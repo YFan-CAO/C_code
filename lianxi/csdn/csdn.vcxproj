@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="7.11 递归.c" />
     <ClCompile Include="7.5_1.c" />
     <ClCompile Include="7.9.c" />
     <ClCompile Include="add.c" />

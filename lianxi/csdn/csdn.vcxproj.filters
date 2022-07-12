@@ -30,6 +30,9 @@
     <ClCompile Include="add.c">
       <Filter>源文件\资源文件</Filter>
     </ClCompile>
+    <ClCompile Include="7.11 递归.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="add.h">
