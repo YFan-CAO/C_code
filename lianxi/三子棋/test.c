@@ -16,22 +16,47 @@ void game()
 	char board[ROW][COL] = {0};
 	initboard(board, ROW, COL);
 	displayboard(board, ROW, COL);
+	char ret = ' ';
 	while (1)
 	{
 		playermove(board, ROW, COL);
 		displayboard(board, ROW, COL);
+		ret=is_win(board, ROW, COL);
+		if (ret != 'c')
+		{
+			break;
+		}
+
 		computermove(board, ROW, COL);
 		displayboard(board, ROW, COL);
-
+		ret = is_win(board, ROW, COL);
+		if (ret != 'c')
+		{
+			break;
+		}
 		
 	}
+
+	if (ret == '*')
+	{
+		printf("玩家获胜\n");
+	}
+	else if (ret == '#')
+	{
+		printf("电脑获胜\n");
+	}
+	else
+	{
+		printf("平局\n");
+	}
+
 
 }
 void test()
 {
 
 	int input = 0;
-	do
+	do              //具体下棋步骤
 	{
 		menu();
 		printf("请输入：");
